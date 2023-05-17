@@ -1,0 +1,13 @@
+train: ./yolo_pollen_data/images/train
+val: ./yolo_pollen_data/images/val
+#test: ../test/images
+
+nc: 20
+names: ['alder', 'angelica', 'angelica_garden', 'birch', 'buckwheat', 'clover', 'fireweed', 'grass', 'hazel', 'hill_mustard', 'linden', 'maple', 'meadow_pink', 'mugwort', 'nettle', 'pigweed', 'pine', 'plantain', 'sorrel', 'willow']
+
+roboflow:
+  workspace: bachelor-project-1ke3j
+  project: pollenv2
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/bachelor-project-1ke3j/pollenv2/dataset/1
